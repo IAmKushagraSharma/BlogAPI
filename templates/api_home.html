@@ -1,4 +1,32 @@
-<h1>Welcome to BlogAPI</h1>
-<hr>
-<p>Go to the following link to access the api endpoints.</p>
-<a href="api/v1">/api/v1</a>
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'main.css' %}" />
+    <title>BlogAPI</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-title">BlogAPI</div>
+      <div>
+        <span>visit: </span>
+        <a href="/api/v1">Api Routes (/api/v1)</a>
+      </div>
+    </header>
+    <main>
+      <h1>Welcome to BlogAPI</h1>
+      <p>
+        This Django web application provides user authentication and content
+        management features.
+      </p>
+      <p>
+        It includes endpoints for user login, registration, password management,
+        and post creation and manipulation.
+      </p>
+      <img src="{% static 'api.webp' %}" alt="img" />
+    </main>
+  </body>
+</html>
