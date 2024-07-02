@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ba010a;
+  color: white;
+  padding: 1rem;
+}
+
+.header-title {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.header span,
+a {
+  font-size: 1.2rem;
+  color: skyblue;
+}
+
+.header a:hover {
+  color: blue;
+}
+
+main {
+  margin: 1rem;
+}
+
+main p {
+  font-size: 1.2rem;
+}
+
+main img {
+  width: 100%;
+  margin-top: 1rem;
+}
