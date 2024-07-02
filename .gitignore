@@ -1,0 +1,9 @@
+# Python bytecode files
+*.pyc
+*.pyo
+
+#SQLite database file
+db.sqlite3
+
+# virtual envs
+/venv
